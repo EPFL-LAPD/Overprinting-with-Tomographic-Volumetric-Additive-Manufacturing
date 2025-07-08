@@ -1,0 +1,87 @@
+{
+    "vial": {
+        "type": "square",
+        "w_int": 10.01,
+        "w_ext": 12.42,
+        "ior": 1.59,
+        "medium": {
+            "ior": 1.3512,
+            "phase": {"type": "hg",
+                     "g": 0.95},
+            "extinction": 0.036657,
+            "albedo": 0.0
+        },
+        "occlusions": [
+            {"filename":"cap_new.ply"},
+            {"filename": "sphere1.ply",
+             "bsdf": {
+                "type": "dielectric",
+                "int_ior": 1.52,
+		"ext_ior": 1.3512
+            }},
+            {"filename": "sphere2.ply",
+             "bsdf": {
+                "type": "dielectric",
+                "int_ior": 1.52,
+		"ext_ior": 1.3512
+            }}
+        ]
+    },
+    "filter_corner": {
+        "dist": 6.204,
+        "radius": 0.9
+    },
+    "projector": {
+        "type": "collimated",
+        "n_patterns": 100,
+        "resx": 768,
+        "resy": 1024,
+        "cropx": 628,
+        "crop_offset_x": 60,
+        "pixel_size": 20.37e-3,
+        "motion": "circular",
+        "distance": 20
+    },
+    "sensor": {
+        "type": "dda",
+        "scalex": 10.2,
+        "scaley": 10.2,
+        "scalez": 10.2,
+        "film": {
+            "type": "vfilm",
+            "resx": 128,
+            "resy": 128,
+            "resz": 128,
+            "surface_aware": false
+        }
+    },
+    "final_sensor": {
+        "type": "dda",
+        "scalex": 10.2,
+        "scaley": 10.2,
+        "scalez": 10.2,
+        "film": {
+            "type": "vfilm",
+            "resx": 128,
+            "resy": 128,
+            "resz": 128
+        }
+    },
+    "target": {
+        "filename": "final.ply",
+        "size": 10.0
+    },
+    "loss": {
+        "type": "threshold",
+        "tl": 0.6,
+        "tu": 0.9,
+	"weight_sparsity": 0.0002
+    },
+    "progressive": true,
+    "filter_radon": true,
+    "transmission_only": false,
+    "n_steps": 30,
+    "spp": 1,
+    "spp_ref": 1,
+    "spp_grad": 1
+}
