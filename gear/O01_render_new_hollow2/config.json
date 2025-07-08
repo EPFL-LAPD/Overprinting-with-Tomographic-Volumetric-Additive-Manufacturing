@@ -1,0 +1,64 @@
+{
+    "vial": {
+        "type": "cylindrical",
+        "r_int": 6.363125,
+        "r_ext": 7.354374999999999,
+        "ior": 1.54,
+        "medium": {
+            "ior": 1.4849,
+            "phase": {"type": "hg", 
+                     "g": 0.95},
+            "extinction": 0.11941206292267122,
+            "albedo": 0.0
+        },
+        "occlusions": [	
+		{ "filename": "cylinder_occlusion.ply",
+			"bsdf": {
+			"type": "roughconductor",
+			"eta": 1.5377,
+			"k": 2.8254,
+			"distribution": "ggx",
+			"alpha": 0.04
+			}
+		}
+	]
+    }, 
+    "projector": {
+        "type": "collimated",
+        "n_patterns": 500,
+        "resx": 768,
+        "resy": 1024,
+        "pixel_size": 20.54e-3,
+        "motion": "circular",
+        "distance": 20
+    },
+    "sensor": {
+        "type": "dda",
+        "scalex": 7.0,
+        "scaley": 7.0,
+        "scalez": 2.5,
+        "film": {
+            "type": "vfilm",
+            "resx": 500,
+            "resy": 500,
+            "resz": 250 
+        }
+    },
+    "target": {
+        "filename": "gears_hollow2.ply",
+        "size": 6.54999
+    },
+    "loss": {
+        "type": "threshold",
+        "tl": 0.7,
+        "tu": 0.92,
+        "weight_sparsity": 5,
+        "M": 4
+    },
+    "filter_radon": false,
+    "transmission_only": false,
+    "spp_ref": 64,
+    "spp": 64,
+    "spp_grad": 64,
+    "n_steps": 40
+}

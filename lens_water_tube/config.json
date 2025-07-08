@@ -1,0 +1,63 @@
+{
+    "vial": {
+        "type": "double_cylindrical",
+        "r_ext_outer": 7.354374999999999,
+        "r_int_outer": 6.363125,
+        "r_ext_inner": 3.18, 
+        "r_int_inner": 2.58,
+        "ior_outer": 1.54,
+        "ior_inner": 1.54,
+	"ior_inside_inner": 1.33,
+        "medium": {
+            "ior": 1.4849,
+            "phase": {"type": "rayleigh"},
+            "extinction": 0.1096030504265166,
+            "albedo": 0.0
+        }
+    },
+    "projector": {
+        "type": "lens",
+        "n_patterns": 500,
+        "resx": 740,
+        "resy": 200,
+        "fov": 5.704342857142857,
+        "aperture_radius": 4.4,
+        "focus_distance": 152.0,
+        "motion": "circular",
+        "distance": 150
+    },
+    "sensor": {
+        "type": "dda",
+        "scalex": 10,
+        "scaley": 10,
+        "scalez": 4,
+        "film": {
+            "type": "vfilm",
+            "resx": 800,
+            "resy": 800,
+            "resz": 500 
+        }
+    },
+    "target": {
+        "filename": "8lens.ply",
+        "box_center_x": 0.0,
+        "box_center_y": 0.0,
+        "box_center_z": 0.0,
+        "size": 9.885
+    },
+    "loss": {
+        "type": "threshold",
+        "tl": 0.80,
+        "tu": 0.95,
+	"weight_sparsity": 1e-25
+    },
+    "progressive": false,
+    "filter_radon": false,
+    "transmission_only": false,
+    "max_depth": 10, 
+    "n_steps": 40,
+    "spp": 40,
+    "spp_final": 40,
+    "spp_grad": 40,
+    "spp_ref": 40
+}
