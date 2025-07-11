@@ -1,4 +1,4 @@
-# Overprinting for Tomographic Volumetric Additive Manufacturing
+# Overprinting with Tomographic Volumetric Additive Manufacturing
 
 This is the supplementary code and configuration files for the following paper:
 
