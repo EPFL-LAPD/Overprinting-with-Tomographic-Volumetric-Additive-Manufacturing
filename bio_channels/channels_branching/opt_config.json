@@ -13,7 +13,9 @@
             "extinction": 0.036657,
             "albedo": 0.0
         },
-        "top_occlusion": "cap.ply"
+        "occlusions": [
+            {"filename":"cap.ply"}}
+        ]
     },
     "filter_corner": {
         "dist": 6.204,
