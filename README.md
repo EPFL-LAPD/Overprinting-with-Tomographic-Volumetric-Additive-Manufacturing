@@ -13,7 +13,7 @@ We used [Dr.TVAM](github.com/rgl-epfl/drtvam) (version 0.3.0) to optimize those 
 For example, the patterns for the perfusion system can be optimized by calling:
 ```
 drtvam spheres_bio_channels/config.json
-``
+```
 
 
 # License
