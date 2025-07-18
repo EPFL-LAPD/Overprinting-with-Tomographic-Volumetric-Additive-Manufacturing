@@ -14,7 +14,7 @@
             "albedo": 0.0
         },
         "occlusions": [
-            {"filename":"cap.ply"}}
+            {"filename":"cap.ply"}
         ]
     },
     "filter_corner": {
