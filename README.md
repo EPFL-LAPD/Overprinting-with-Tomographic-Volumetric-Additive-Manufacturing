@@ -7,6 +7,10 @@ XXX
 
 ```
 
+<a  href="https://www.youtube.com/watch?v=ePuIFgeUbNk"><img src="channel.jpg"  width="700"></a>
+
+
+
 # Dr.TVAM
 We used [Dr.TVAM](github.com/rgl-epfl/drtvam) (version 0.3.0) to optimize those configuration files.
 
