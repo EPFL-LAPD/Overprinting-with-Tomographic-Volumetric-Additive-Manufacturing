@@ -1,10 +1,17 @@
 # Overprinting with Tomographic Volumetric Additive Manufacturing
 
-This is the supplementary code and configuration files for the following paper:
+This is the supplementary code and configuration files for the following pre-print:
 
 ```bibtex
-XXX
-
+@misc{wechsler2025overprintingtomographicvolumetricadditive,
+      title={Overprinting with Tomographic Volumetric Additive Manufacturing}, 
+      author={Felix Wechsler and Viola Sgarminato and Riccardo Rizzo and Baptiste Nicolet and Wenzel Jakob and Christophe Moser},
+      year={2025},
+      eprint={2507.13842},
+      archivePrefix={arXiv},
+      primaryClass={physics.optics},
+      url={https://arxiv.org/abs/2507.13842}, 
+}
 ```
 
 <a  href="https://www.youtube.com/watch?v=ePuIFgeUbNk"><img src="channel.jpg"  width="700"></a>
