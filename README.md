@@ -3,7 +3,7 @@
 This is the supplementary code and configuration files for the following pre-print:
 
 ```bibtex
-@misc{wechsler2025overprintingtomographicvolumetricadditive,
+@misc{wechsler_2025_overprinting_TVAM,
       title={Overprinting with Tomographic Volumetric Additive Manufacturing}, 
       author={Felix Wechsler and Viola Sgarminato and Riccardo Rizzo and Baptiste Nicolet and Wenzel Jakob and Christophe Moser},
       year={2025},
