@@ -1,6 +1,6 @@
 # Overprinting with Tomographic Volumetric Additive Manufacturing
 
-This is the supplementary code and configuration files for the following pre-print:
+This is the supplementary code and configuration files for the following [pre-print](https://arxiv.org/abs/2507.13842):
 
 ```bibtex
 @misc{wechsler_2025_overprinting_TVAM,
