@@ -23,6 +23,10 @@ We used [Dr.TVAM](https://github.com/rgl-epfl/drtvam) (version 0.3.0) to optimiz
 
 For example, the patterns for the perfusion system can be optimized by calling:
 ```
+# install drtvam first
+pip install drtvam==0.3.0
+
+# optimize patterns
 drtvam spheres_bio_channels/config.json
 ```
 
