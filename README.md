@@ -30,6 +30,9 @@ pip install drtvam==0.3.0
 drtvam spheres_bio_channels/config.json
 ```
 
+# arXiv version
+This repository might change in future but the state of the arXiv preprint can be found [here](https://github.com/EPFL-LAPD/Overprinting-with-Tomographic-Volumetric-Additive-Manufacturing/releases/tag/arXiv2507.13842).
+
 
 # License
 The following configuration files are compatible with [Dr.TVAM](https://github.com/rgl-epfl/drtvam) and are only allowed to use for academic, non-commercial purposes only. See [LICENSE](LICENSE) for more details.
