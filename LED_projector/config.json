@@ -1,0 +1,63 @@
+{
+    "vial": {
+        "type": "cylindrical",
+        "r_int": 6.363125,
+        "r_ext": 7.354374999999999,
+        "ior": 1.54,
+        "medium": {
+            "ior": 1.4840,
+            "phase": {"type": "rayleigh"},
+            "extinction": 0.197,
+            "albedo": 0.0
+        },
+        "occlusions": [
+            {"filename": "LED.ply",
+             "bsdf": {
+                "type": "dielectric",
+                "int_ior": 1.48,
+                "ext_ior": 1.4840
+            }}
+        ]
+    },
+    "projector": {
+        "type": "lens",
+        "n_patterns": 192,
+        "resx": 550,
+        "resy": 550,
+        "pixel_size": 21.9e-3,
+        "motion": "circular",
+        "distance": 180,
+        "focus_distance": 181,
+        "aperture_radius": 6
+    },
+    "sensor": {
+        "type": "dda",
+        "scalex": 7.5,
+        "scaley": 7.5,
+        "scalez": 11.8,
+        "film": {
+            "type": "vfilm",
+            "resx": 500,
+            "resy": 500,
+            "resz": 1150 
+        }
+    },
+    "target": {
+        "filename": "target.ply",
+	    "scale_and_center": false
+    },
+    "loss": {
+        "type": "threshold",
+        "tl": 0.70,
+        "tu": 0.93,
+        "weight_sparsity": 0.5
+    },
+    "transmission_only": false,
+    "filter_radon": true,
+    "n_steps": 40,
+    "spp": 100,
+    "spp_grad": 35,
+    "spp_ref": 100,
+    "max_depth": 8
+}
+
