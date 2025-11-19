@@ -19,12 +19,12 @@ This is the supplementary code and configuration files for the following [pre-pr
 
 
 # Dr.TVAM
-We used [Dr.TVAM](https://github.com/rgl-epfl/drtvam) (version 0.3.0) to optimize those configuration files.
+We used [Dr.TVAM](https://github.com/rgl-epfl/drtvam) (version 0.6.0) to optimize those configuration files.
 
 For example, the patterns for the perfusion system can be optimized by calling:
 ```
 # install drtvam first
-pip install drtvam==0.3.0
+pip install drtvam==0.6.0
 
 # optimize patterns
 drtvam spheres_bio_channels/config.json
