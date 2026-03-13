@@ -8,20 +8,20 @@
             "ior": 1.4849,
             "phase": {"type": "hg", 
                      "g": 0.95},
-            "extinction": 0.11941206292267122,
+            "extinction": 0.2060813658229671,
             "albedo": 0.0
         },
-        "occlusions": [	
-		{ "filename": "cylinder_occlusion_4mm.ply",
-			"bsdf": {
-			"type": "roughconductor",
-			"eta": 1.5377,
-			"k": 2.8254,
-			"distribution": "ggx",
-			"alpha": 0.03
-			}
-		}
-	]
+        "occlusions": [
+                { "filename": "cylinder_occlusion_4mm.ply",
+                        "bsdf": {
+                        "type": "roughconductor",
+                        "eta": 1.5377,
+                        "k": 2.8254,
+                        "distribution": "ggx",
+                        "alpha": 0.03
+                        }
+                }
+        ]
     }, 
     "projector": {
         "type": "collimated",
