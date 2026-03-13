@@ -12,8 +12,7 @@
             "albedo": 0.0
         },
         "occlusions": [	
-		{ "filename": "cylinder_occlusion.ply"
-		}
+		{ "filename": "cylinder_occlusion_4mm.ply"}
 	]
     }, 
     "projector": {
@@ -31,25 +30,25 @@
     },
     "sensor": {
         "type": "dda",
-        "scalex": 7.0,
-        "scaley": 7.0,
-        "scalez": 2.5,
+        "scalex": 11.296999999999999,
+        "scaley": 11.296999999999999,
+        "scalez": 4.108,
         "film": {
             "type": "vfilm",
-            "resx": 500,
-            "resy": 500,
-            "resz": 250 
+            "resx": 550,
+            "resy": 550,
+            "resz": 200 
         }
     },
     "target": {
-        "filename": "gears_hollow2.ply",
-        "size": 6.54999
+        "filename": "gear_9_1mm.ply",
+        "size": 9.1
     },
     "loss": {
         "type": "threshold",
         "tl": 0.7,
         "tu": 0.92,
-        "weight_sparsity": 5,
+        "weight_sparsity": 5.00,
         "M": 4
     },
     "filter_radon": true,

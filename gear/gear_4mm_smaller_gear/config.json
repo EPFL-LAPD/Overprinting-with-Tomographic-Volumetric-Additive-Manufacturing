@@ -12,13 +12,13 @@
             "albedo": 0.0
         },
         "occlusions": [	
-		{ "filename": "cylinder_occlusion.ply",
+		{ "filename": "cylinder_occlusion_4mm.ply",
 			"bsdf": {
 			"type": "roughconductor",
 			"eta": 1.5377,
 			"k": 2.8254,
 			"distribution": "ggx",
-			"alpha": 0.04
+			"alpha": 0.03
 			}
 		}
 	]
@@ -28,34 +28,38 @@
         "n_patterns": 500,
         "resx": 768,
         "resy": 1024,
+        "cropx": 650,
+        "cropy": 650,
+        "crop_offset_y": 187,
+        "crop_offset_x": 59,
         "pixel_size": 20.54e-3,
         "motion": "circular",
         "distance": 20
     },
     "sensor": {
         "type": "dda",
-        "scalex": 7.0,
-        "scaley": 7.0,
-        "scalez": 2.5,
+        "scalex": 11.296999999999999,
+        "scaley": 11.296999999999999,
+        "scalez": 4.108,
         "film": {
             "type": "vfilm",
-            "resx": 500,
-            "resy": 500,
-            "resz": 250 
+            "resx": 550,
+            "resy": 550,
+            "resz": 200 
         }
     },
     "target": {
-        "filename": "gears_hollow2.ply",
-        "size": 6.54999
+        "filename": "gear_9_1mm.ply",
+        "size": 9.1
     },
     "loss": {
         "type": "threshold",
         "tl": 0.7,
         "tu": 0.92,
-        "weight_sparsity": 5,
+        "weight_sparsity": 5.00,
         "M": 4
     },
-    "filter_radon": false,
+    "filter_radon": true,
     "transmission_only": false,
     "spp_ref": 64,
     "spp": 64,
