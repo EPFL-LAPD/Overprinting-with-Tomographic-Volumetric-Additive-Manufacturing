@@ -1,14 +1,14 @@
 {
     "vial": {
-        "type": "cylindrical",
-        "r_int": 6.363125,
-        "r_ext": 7.354374999999999,
-        "ior": 1.54,
+        "type": "square",
+        "w_int": 10,
+        "w_ext": 11,
+        "ior": 1.50,
         "medium": {
-            "ior": 1.4849,
+            "ior": 1.33,
             "phase": {"type": "hg", 
                      "g": 0.95},
-            "extinction": 0.11941206292267122,
+            "extinction": 0.02,
             "albedo": 0.0
         },
         "occlusions": [	
@@ -50,7 +50,7 @@
     },
     "psf_analysis": [
     {
-        "x": 384,
+        "x": 314,
         "y": 512,
         "index_pattern": 0,
         "intensity": 1000
@@ -64,8 +64,8 @@
     },
     "filter_radon": true,
     "transmission_only": false,
-    "spp_ref": 64,
-    "spp": 64,
+    "spp_ref": 100000,
+    "spp": 100000,
     "spp_grad": 64,
     "n_steps": 40
 }

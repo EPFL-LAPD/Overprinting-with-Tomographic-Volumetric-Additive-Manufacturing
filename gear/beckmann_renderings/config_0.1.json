@@ -18,7 +18,7 @@
 			"eta": 1.5377,
 			"k": 2.8254,
 			"distribution": "ggx",
-			"alpha": 0.01
+			"alpha": 0.1
 			}
 		}
 	]
