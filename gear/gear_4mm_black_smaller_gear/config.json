@@ -1,0 +1,60 @@
+{
+    "vial": {
+        "type": "cylindrical",
+        "r_int": 6.363125,
+        "r_ext": 7.354374999999999,
+        "ior": 1.54,
+        "medium": {
+            "ior": 1.4849,
+            "phase": {"type": "hg", 
+                     "g": 0.95},
+            "extinction": 0.2060813658229671,
+            "albedo": 0.0
+        },
+        "occlusions": [
+                { "filename": "cylinder_occlusion_4mm.ply"}
+        ]
+    }, 
+    "projector": {
+        "type": "collimated",
+        "n_patterns": 500,
+        "resx": 768,
+        "resy": 1024,
+        "cropx": 650,
+        "cropy": 650,
+        "crop_offset_y": 187,
+        "crop_offset_x": 59,
+        "pixel_size": 20.54e-3,
+        "motion": "circular",
+        "distance": 20
+    },
+    "sensor": {
+        "type": "dda",
+        "scalex": 11.296999999999999,
+        "scaley": 11.296999999999999,
+        "scalez": 4.108,
+        "film": {
+            "type": "vfilm",
+            "resx": 550,
+            "resy": 550,
+            "resz": 200 
+        }
+    },
+    "target": {
+        "filename": "gear_9_1mm.ply",
+        "size": 9.1
+    },
+    "loss": {
+        "type": "threshold",
+        "tl": 0.7,
+        "tu": 0.92,
+        "weight_sparsity": 5.00,
+        "M": 4
+    },
+    "filter_radon": true,
+    "transmission_only": false,
+    "spp_ref": 64,
+    "spp": 64,
+    "spp_grad": 64,
+    "n_steps": 40
+}
