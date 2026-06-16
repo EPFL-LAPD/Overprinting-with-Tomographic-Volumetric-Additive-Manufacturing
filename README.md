@@ -3,14 +3,17 @@
 This is the supplementary code and configuration files for the following [pre-print](https://arxiv.org/abs/2507.13842):
 
 ```bibtex
-@misc{wechsler_2025_overprinting_TVAM,
-      title={Overprinting with Tomographic Volumetric Additive Manufacturing}, 
-      author={Felix Wechsler and Viola Sgarminato and Riccardo Rizzo and Baptiste Nicolet and Wenzel Jakob and Christophe Moser},
-      year={2025},
-      eprint={2507.13842},
-      archivePrefix={arXiv},
-      primaryClass={physics.optics},
-      url={https://arxiv.org/abs/2507.13842}, 
+@article{Wechsler_Sgarminato_Rizzo_Nicolet_Jakob_Moser_2025, title={Overprinting with tomographic volumetric additive manufacturing},
+   rights={2026 The Author(s)},
+   ISSN={2041-1723},
+   url={https://www.nature.com/articles/s41467-026-73477-3},
+   DOI={10.1038/s41467-026-73477-3},
+   journal={Nature Communications},
+   publisher={Nature Publishing Group},
+   author={Wechsler, Felix and Sgarminato, Viola and Rizzo, Riccardo and Nicolet, Baptiste and Jakob, Wenzel and Moser, Christophe},
+   year={2026},
+   month=jun,
+   language={en}
 }
 ```
 
