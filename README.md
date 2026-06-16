@@ -10,7 +10,7 @@
     <br />
     <a href="https://www.felixwechsler.science/"><strong>Felix Wechsler</strong></a>
     ·
-    <a href=""><strong>Viola Sgarminato/strong></a>
+    <a href=""><strong>Viola Sgarminato</strong></a>
     ·
     <a href=""><strong>Riccardo Rizzo</strong></a>
     ·
