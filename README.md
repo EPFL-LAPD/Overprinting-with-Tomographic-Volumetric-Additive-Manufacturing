@@ -1,24 +1,56 @@
-# Overprinting with Tomographic Volumetric Additive Manufacturing
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
 
-This is the supplementary code and configuration files for the following [pre-print](https://arxiv.org/abs/2507.13842):
+  <h1 align="center"><a href="">Overprinting with Tomographic Volumetric Additive Manufacturing</a></h1>
+
+
+
+  <p align="center">
+    <br />
+    <a href="https://www.felixwechsler.science/"><strong>Felix Wechsler</strong></a>
+    ·
+    <a href=""><strong>Viola Sgarminato/strong></a>
+    ·
+    <a href=""><strong>Riccardo Rizzo</strong></a>
+    ·
+    <a href=""><strong>Baptiste Nicolet</strong></a>
+    ·
+    <a href=""><strong>Wenzel Jakob</strong></a>
+    ·
+    <a href=""><strong>Christophe Moser</strong></a>
+  </p>
+
+  <p align="center">
+    <a href='https://www.nature.com/articles/s41467-026-73477-3'>
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat-square' alt='Paper PDF'>
+    </a>
+  </p>
+</p>
+
+  <a href="">
+    <img src="https://raw.githubusercontent.com/EPFL-LAPD/Overprinting-with-Tomographic-Volumetric-Additive-Manufacturing/refs/heads/main/overview.jpg" alt="Logo" width="100%">
+  </a>
+
+
+
+This is the supplementary code and configuration files for the paper published in [Nature Communications](https://www.nature.com/articles/s41467-026-73477-3):
 
 ```bibtex
-@article{Wechsler_Sgarminato_Rizzo_Nicolet_Jakob_Moser_2025, title={Overprinting with tomographic volumetric additive manufacturing},
+@article{wechsler_overprinting_TVAM,
+   title={Overprinting with tomographic volumetric additive manufacturing},
+   author={Wechsler, Felix and Sgarminato, Viola and Rizzo, Riccardo and Nicolet, Baptiste and Jakob, Wenzel and Moser, Christophe},
    rights={2026 The Author(s)},
    ISSN={2041-1723},
    url={https://www.nature.com/articles/s41467-026-73477-3},
    DOI={10.1038/s41467-026-73477-3},
    journal={Nature Communications},
    publisher={Nature Publishing Group},
-   author={Wechsler, Felix and Sgarminato, Viola and Rizzo, Riccardo and Nicolet, Baptiste and Jakob, Wenzel and Moser, Christophe},
    year={2026},
    month=jun,
    language={en}
 }
 ```
-
-<a  href="https://www.youtube.com/watch?v=ePuIFgeUbNk"><img src="channel.jpg"  width="700"></a>
-
 
 
 # Dr.TVAM
